@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
+    <!-- Add entries for each Spigot version -->
     <libelement value="jar://$MODULE_DIR$/../../Server Spigot 1.17/spigot-1.17.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../Server Spigot 1.18/spigot-1.18.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../Server Spigot 1.19/spigot-1.19.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../Server Spigot 1.20/spigot-1.20.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/../../Server Spigot 1.21/spigot-1.21.jar!/" />
     <src_description expected_position="1">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="1" />
     </src_description>
@@ -27,10 +32,48 @@
     </content>
     <orderEntry type="jdk" jdkName="JavaSE-1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    
+    <!-- Include all relevant Spigot versions -->
     <orderEntry type="module-library" scope="PROVIDED">
       <library name="spigot-1.17.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../Server Spigot 1.17/spigot-1.17.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="spigot-1.18.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Server Spigot 1.18/spigot-1.18.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="spigot-1.19.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Server Spigot 1.19/spigot-1.19.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="spigot-1.20.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Server Spigot 1.20/spigot-1.20.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="spigot-1.21.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Server Spigot 1.21/spigot-1.21.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
